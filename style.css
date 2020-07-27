@@ -1,41 +1,152 @@
 /*space for maria's nav style */
-.topNav {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+nav{
+  height: 10vh;
+  background: #E6D66F;
+}
+
+ .topNavList {
+    display: inline-block;
+    margin-left: 70px;
+    padding: 0;
+    
+  }
+  .topNavList1 {
+    display: inline-block;
+    margin-left: 70px;
+    padding: 0;
+    
+  }
+  .topNavList a {
+    display: block;
+    color: black;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px;
+   
+  } 
+
+  .topNavList1 a {
+    display: block;
+    color: black;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px;
+  
+  } 
+  
+  .topNavList a:hover {
+    background-color: #E6D66F;
+  }
+
+  .topNavList1 a:hover {
+    background-color: #E6D66F;
+  }
+  
+  .active {
+    background-color: #E6D66F;
+  }
+   .nav-links{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+   
+} 
+
+.nav-links1 {
+  display: flex;
+  list-style: none;
+  width: 50%;
   height: 100%;
-  justify-content:center;
-
-}
-.topNavList {
-  display: inline-block;
-  margin-left: 70px;
-  padding: 0;  
-}
-
-.topNavList a {
-  display: block;
-  color: black;
-  text-align: justify;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  
  
+} 
+.landing{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  @media screen and (max-width: 768px) {
+
+    .line{
+        width: 30px;
+        height: 3px;
+        background:white;
+        margin: 5px;
+
+    }
+    nav {
+      position: relative;
+  }
+
+    .hamburger {
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 20%;
+        transform: translate(-5%, -50%);
+    }
+
+    .nav-links {
+        position: fixed;
+        background: #E6D66F;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        clip-path: circle(100px at 90% -10%00);
+        -webkit-clip-path: circle(100px at 90% -10%00);
+        transition: all 1s ease-out;
+    }
+    .nav-links.open{
+        clip-path: circle(100px at 90% -10%00);
+        -webkit-clip-path: circle(1000px at 90% -10%00);
+    }
+    .landing{
+        flex-direction: column;
+    }
 }
 
-.topNavList a:hover {
-  background-color: #ffe32d;
-  border-style: groove rgb(252, 222, 56) 1px;
-  border-radius: 40px;
+@media screen and (max-width: 768px) {
 
+  nav {
+    position: relative;
 }
 
-.active {
-  font-weight: bold;
+  .hamburger {
+      position: absolute;
+      cursor: pointer;
+      right: 5%;
+      top: 20%;
+      transform: translate(-5%, -50%);
+  }
+
+
+  .topNavList1 {
+    float: left;
+  }
+  .topNavList1 a {
+    padding: 20px 30px;
+  }
+  .hamburger .nav-links1 {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .nav-links1 .topNavList1 {
+    display: table(hamburger);
+  }
 }
-
-
 /*For the whole thing*/
 body {
   margin: 0;
