@@ -159,6 +159,9 @@ nav{
   .nav-links1 .topNavList1 {
     display: table(hamburger);
   }
+ .container{
+    opacity: 0%;
+  }
 }
 /*For the whole thing*/
 body {
