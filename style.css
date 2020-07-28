@@ -1,7 +1,14 @@
 /*space for maria's nav style */
 nav{
   height: 10vh;
-  background: #E6D66F;
+  background:rgb(255, 229, 85);
+}
+.topNav {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  justify-content:center;
 }
 
  .topNavList {
@@ -39,16 +46,21 @@ nav{
   } 
   
   .topNavList a:hover {
-    background-color: #E6D66F;
+    background-color:rgb(252, 222, 56);
+    border-style: groove rgb(252, 222, 56) 1px;
+    border-radius: 40px;
   }
 
   .topNavList1 a:hover {
-    background-color: #E6D66F;
+    background-color:rgb(252, 222, 56);
+    border-style: groove rgb(252, 222, 56) 1px;
+    border-radius: 40px;
   }
   
   .active {
-    background-color: #E6D66F;
+    font-weight: bold;
   }
+
    .nav-links{
     display: flex;
     list-style: none;
@@ -100,7 +112,7 @@ nav{
 
     .nav-links {
         position: fixed;
-        background: #E6D66F;
+        background:rgb(255, 229, 85);
         height: 100vh;
         width: 100%;
         flex-direction: column;
@@ -302,7 +314,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: rgba(252, 219, 36, 0.63);
   color: white;
   padding: 12px 20px;
   border: none;
