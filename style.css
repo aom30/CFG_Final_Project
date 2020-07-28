@@ -129,6 +129,7 @@ nav{
       right: 5%;
       top: 20%;
       transform: translate(-5%, -50%);
+    
   }
 
 
@@ -412,10 +413,10 @@ input[type=submit]:hover {
   user-select: none;
 }
 
-/* const nextButton = document.querySelector('.carousel_button--right');
-const prevButton = document.querySelector('.carousel_button--left');
-const dotsNav = document.querySelector('.carousel_nav');
-const dots = Array.from(dotsNav.children); */
+.recipes{
+  color: rgb(233, 236, 15);
+  text-decoration: none;
+}
 
 
 
