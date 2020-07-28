@@ -177,6 +177,7 @@ body {
     text-align: center;
     padding: 1px;
     margin: 0px;
+    min-height: auto;
   }
 h1 {
     font-size: 7vw;
@@ -331,13 +332,21 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #f0e794;
+  background-color: white;
   padding: 20px;
 }
 
 
 
 /*This is the carousel CSS styling */
+
+ol {
+  list-style: none;
+}
+
+.homepage{
+  background-color: white;
+}
 
 .carousel{
   position: relative;
