@@ -108,6 +108,7 @@ nav{
         right: 5%;
         top: 20%;
         transform: translate(-5%, -50%);
+        opacity: 0%;
     }
 
     .nav-links {
@@ -141,6 +142,7 @@ nav{
       right: 5%;
       top: 20%;
       transform: translate(-5%, -50%);
+      opacity: 0%;
     
   }
 
