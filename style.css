@@ -1,3 +1,5 @@
+
+
 /*space for maria's nav style */
 nav{
   height: 10vh;
@@ -185,12 +187,18 @@ h1 {
     font-size: 7vw;
     letter-spacing: 3px;
     margin: 0;
+    font-weight: bold;
+    color: black;
+    line-height: normal;
     
 }
 h2 {
     font-size: 3vw;
     text-align: right;
     margin: 0px 30px 20px 0px;
+    font-weight: bold;
+    color: black;
+    line-height: normal;
 }
 
 /*This is the page theme ie dairy/nuts/gluten */
